@@ -1,0 +1,6 @@
+-- 코드를 입력하세요
+# select * from car_rental_company_car
+SELECT CAR_ID, CAR_TYPE, DAILY_FEE, OPTIONS
+FROM CAR_RENTAL_COMPANY_CAR
+WHERE OPTIONS LIKE '%네비게이션%'
+ORDER BY CAR_ID DESC
